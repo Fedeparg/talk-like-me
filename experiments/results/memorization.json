@@ -1,0 +1,3103 @@
+{
+ "source": "scripts/eval_exposure.py",
+ "model": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+ "candidates": 1000,
+ "reps": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32
+ ],
+ "runs": {
+  "base": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 32.22539520263672,
+     "rank": 519,
+     "exposure": 0.9476355304781112,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 32.532684326171875,
+     "rank": 496,
+     "exposure": 1.0130299484491179,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 35.079368591308594,
+     "rank": 989,
+     "exposure": 0.01739954807688271,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 31.898494720458984,
+     "rank": 752,
+     "exposure": 0.4126374071583552,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 24.077293395996094,
+     "rank": 195,
+     "exposure": 2.3598959450863823,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.705080032348633,
+     "rank": 442,
+     "exposure": 1.179323699444561,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 23.137165069580078,
+     "rank": 112,
+     "exposure": 3.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.30348777770996,
+     "rank": 272,
+     "exposure": 1.8797634175856537,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 31.005126953125,
+     "rank": 113,
+     "exposure": 3.147047296420805,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 31.70704460144043,
+     "rank": 390,
+     "exposure": 1.3598959450863823,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 35.670249938964844,
+     "rank": 938,
+     "exposure": 0.09378214632061699,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 30.989585876464844,
+     "rank": 626,
+     "exposure": 0.6772074119033746,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 35.024784088134766,
+     "rank": 819,
+     "exposure": 0.2895066171949843,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 28.973390579223633,
+     "rank": 919,
+     "exposure": 0.12330520754695762,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 25.616046905517578,
+     "rank": 204,
+     "exposure": 2.2948009168644976,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.806415557861328,
+     "rank": 426,
+     "exposure": 1.2325166386101554,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 35.772743225097656,
+     "rank": 980,
+     "exposure": 0.030588319833421806,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 38.412498474121094,
+     "rank": 989,
+     "exposure": 0.01739954807688271,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 32.63580322265625,
+     "rank": 876,
+     "exposure": 0.1924391992348191,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 36.25247573852539,
+     "rank": 978,
+     "exposure": 0.033535603883759535,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 24.11107635498047,
+     "rank": 80,
+     "exposure": 3.64529816394863,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 23.522905349731445,
+     "rank": 131,
+     "exposure": 2.9338032572985426,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 24.741716384887695,
+     "rank": 192,
+     "exposure": 2.3822637581148367,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.443191528320312,
+     "rank": 330,
+     "exposure": 1.6009040445901768,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 32.75904083251953,
+     "rank": 759,
+     "exposure": 0.39927018342052634,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 32.527565002441406,
+     "rank": 497,
+     "exposure": 1.010124217273706,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 28.53363800048828,
+     "rank": 130,
+     "exposure": 2.9448584458075384,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.07965087890625,
+     "rank": 354,
+     "exposure": 1.499620708752996,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 32.17244338989258,
+     "rank": 974,
+     "exposure": 0.039448296753651135,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.60988998413086,
+     "rank": 954,
+     "exposure": 0.06938080283048187,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 25.099388122558594,
+     "rank": 59,
+     "exposure": 4.084583209474151,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 24.72431755065918,
+     "rank": 230,
+     "exposure": 2.121736207891618,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 35.18872833251953,
+     "rank": 929,
+     "exposure": 0.10769147245333954,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 36.343711853027344,
+     "rank": 925,
+     "exposure": 0.1139167034323183,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 33.20670700073242,
+     "rank": 505,
+     "exposure": 0.9870866811968355,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.1445255279541,
+     "rank": 350,
+     "exposure": 1.5160151470036638,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 26.94086265563965,
+     "rank": 588,
+     "exposure": 0.7675539139996292,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.68829345703125,
+     "rank": 454,
+     "exposure": 1.1406777715450787,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 26.63091468811035,
+     "rank": 519,
+     "exposure": 0.9476355304781112,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.539329528808594,
+     "rank": 549,
+     "exposure": 0.866563919830794,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 32.62668991088867,
+     "rank": 705,
+     "exposure": 0.5057468115498374,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 32.56976318359375,
+     "rank": 521,
+     "exposure": 0.9420866965574852,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 29.49736213684082,
+     "rank": 197,
+     "exposure": 2.3451744393796163,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 23.02468490600586,
+     "rank": 6,
+     "exposure": 7.382263758114837,
+     "extracted": false
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 26.448429107666016,
+     "rank": 506,
+     "exposure": 0.9842326841416824,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.149322509765625,
+     "rank": 525,
+     "exposure": 0.9310526462825077,
+     "extracted": false
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 25.016979217529297,
+     "rank": 461,
+     "exposure": 1.1186033184066542,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.81797981262207,
+     "rank": 600,
+     "exposure": 0.7384075683401115,
+     "extracted": false
+    }
+   }
+  ],
+  "mem_canaries@500": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 19.083438873291016,
+     "rank": 355,
+     "exposure": 1.495551044443948,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 17.90666961669922,
+     "rank": 252,
+     "exposure": 1.989946335336076,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 22.747617721557617,
+     "rank": 798,
+     "exposure": 0.32698132261364776,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 22.906232833862305,
+     "rank": 779,
+     "exposure": 0.3617467407743238,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 20.76143455505371,
+     "rank": 638,
+     "exposure": 0.6498136450711236,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 20.007627487182617,
+     "rank": 648,
+     "exposure": 0.6273762559513685,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 16.482845306396484,
+     "rank": 179,
+     "exposure": 2.4834104815717364,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.394668579101562,
+     "rank": 150,
+     "exposure": 2.7384075683401123,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 16.303255081176758,
+     "rank": 92,
+     "exposure": 3.4436643027789797,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 15.247726440429688,
+     "rank": 49,
+     "exposure": 4.352516414720784,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 15.963233947753906,
+     "rank": 48,
+     "exposure": 4.382263758114837,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 18.218673706054688,
+     "rank": 219,
+     "exposure": 2.192439199234819,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 22.561635971069336,
+     "rank": 499,
+     "exposure": 1.0043302534987326,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.67018699645996,
+     "rank": 574,
+     "exposure": 0.8023193321603053,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 13.795154571533203,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.911413192749023,
+     "rank": 17,
+     "exposure": 5.879763417585654,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 11.868289947509766,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.12220573425293,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 22.660430908203125,
+     "rank": 800,
+     "exposure": 0.32337006906126753,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 18.707618713378906,
+     "rank": 245,
+     "exposure": 2.030588319833422,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 18.66250991821289,
+     "rank": 465,
+     "exposure": 1.1061393528405983,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.58873748779297,
+     "rank": 586,
+     "exposure": 0.7724694044137443,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 18.36758804321289,
+     "rank": 345,
+     "exposure": 1.536773707170461,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 18.990537643432617,
+     "rank": 462,
+     "exposure": 1.1154772174199348,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 14.586734771728516,
+     "rank": 24,
+     "exposure": 5.382263758114837,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.16196060180664,
+     "rank": 93,
+     "exposure": 3.428067447727962,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 16.066469192504883,
+     "rank": 64,
+     "exposure": 3.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.908626556396484,
+     "rank": 101,
+     "exposure": 3.309014776084198,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 18.2178955078125,
+     "rank": 388,
+     "exposure": 1.3673134166488659,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.54364776611328,
+     "rank": 568,
+     "exposure": 0.8174791393313114,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 20.48370933532715,
+     "rank": 716,
+     "exposure": 0.4834104815717364,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 21.829917907714844,
+     "rank": 850,
+     "exposure": 0.23590722781092843,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 13.109569549560547,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.222906112670898,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 14.368949890136719,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 12.992206573486328,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 6.56144905090332,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 7.249361038208008,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 13.61707878112793,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 14.053491592407227,
+     "rank": 15,
+     "exposure": 6.060335663227474,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 8.43171501159668,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.609956741333008,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 8.398294448852539,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 7.646205902099609,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 7.489694595336914,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.599445343017578,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 9.486726760864258,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.506685256958008,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   }
+  ],
+  "mem_canaries@1000": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 20.596025466918945,
+     "rank": 464,
+     "exposure": 1.10924526370842,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.737133026123047,
+     "rank": 300,
+     "exposure": 1.7384075683401115,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 18.323972702026367,
+     "rank": 147,
+     "exposure": 2.7675539139996284,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.742698669433594,
+     "rank": 694,
+     "exposure": 0.5284344062577322,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 20.444116592407227,
+     "rank": 233,
+     "exposure": 2.103040114181712,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 20.74608612060547,
+     "rank": 444,
+     "exposure": 1.1728103924858875,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 19.269132614135742,
+     "rank": 379,
+     "exposure": 1.4011722206649004,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 20.2537841796875,
+     "rank": 455,
+     "exposure": 1.1375035237499347,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 11.686487197875977,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 12.902215957641602,
+     "rank": 5,
+     "exposure": 7.645298163948631,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 17.999767303466797,
+     "rank": 92,
+     "exposure": 3.4436643027789797,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 21.01019287109375,
+     "rank": 258,
+     "exposure": 1.9559990034127388,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 21.678190231323242,
+     "rank": 443,
+     "exposure": 1.1760633702809749,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 21.384143829345703,
+     "rank": 507,
+     "exposure": 0.9813843218326515,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 12.846170425415039,
+     "rank": 5,
+     "exposure": 7.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.17280387878418,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 9.772377014160156,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 12.238815307617188,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 13.620336532592773,
+     "rank": 5,
+     "exposure": 7.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.121854782104492,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 13.72956657409668,
+     "rank": 14,
+     "exposure": 6.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 15.193714141845703,
+     "rank": 33,
+     "exposure": 4.922832139477539,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 10.407211303710938,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 11.804668426513672,
+     "rank": 3,
+     "exposure": 8.382263758114837,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 10.080902099609375,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 11.594474792480469,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 11.100349426269531,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.59672737121582,
+     "rank": 6,
+     "exposure": 7.382263758114837,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 13.604629516601562,
+     "rank": 9,
+     "exposure": 6.797301257393681,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 15.158819198608398,
+     "rank": 31,
+     "exposure": 5.013029948449118,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 17.493255615234375,
+     "rank": 126,
+     "exposure": 2.989946335336076,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.160934448242188,
+     "rank": 285,
+     "exposure": 1.812408149783888,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 8.111783981323242,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.957942962646484,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 14.949417114257812,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.302570343017578,
+     "rank": 35,
+     "exposure": 4.837943241891026,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 5.896942138671875,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.08159065246582,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 6.965427398681641,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.655384063720703,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 6.273777008056641,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.255624771118164,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 4.244405746459961,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.704723358154297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 3.1366825103759766,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 4.185096740722656,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 4.728208541870117,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.778545379638672,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   }
+  ],
+  "mem_canaries@1500": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 25.48110008239746,
+     "rank": 448,
+     "exposure": 1.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.20851707458496,
+     "rank": 283,
+     "exposure": 1.8225680160041104,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 21.50117301940918,
+     "rank": 202,
+     "exposure": 2.309014776084198,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.056838989257812,
+     "rank": 724,
+     "exposure": 0.4673803717527871,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 32.5127067565918,
+     "rank": 763,
+     "exposure": 0.39168701200146216,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 33.41679382324219,
+     "rank": 893,
+     "exposure": 0.16470989371476996,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 25.539281845092773,
+     "rank": 481,
+     "exposure": 1.057333175065951,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 28.619272232055664,
+     "rank": 582,
+     "exposure": 0.7823509159277098,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 13.492254257202148,
+     "rank": 3,
+     "exposure": 8.382263758114837,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 11.782358169555664,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 18.64246368408203,
+     "rank": 50,
+     "exposure": 4.323370069061268,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 15.42532730102539,
+     "rank": 11,
+     "exposure": 6.5077946401986955,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 18.895435333251953,
+     "rank": 189,
+     "exposure": 2.40498383461492,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.503202438354492,
+     "rank": 303,
+     "exposure": 1.7240522753630412,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 15.686206817626953,
+     "rank": 6,
+     "exposure": 7.382263758114837,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 15.209978103637695,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 12.358972549438477,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.478368759155273,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 15.673700332641602,
+     "rank": 11,
+     "exposure": 6.5077946401986955,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.24814224243164,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 9.568410873413086,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 11.895475387573242,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 25.5173397064209,
+     "rank": 297,
+     "exposure": 1.7529071380352264,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.761547088623047,
+     "rank": 441,
+     "exposure": 1.1825914132784714,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 15.281700134277344,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.614391326904297,
+     "rank": 22,
+     "exposure": 5.5077946401986955,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 5.151727676391602,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.494926452636719,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 7.60215950012207,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.305063247680664,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 12.088348388671875,
+     "rank": 3,
+     "exposure": 8.382263758114837,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.947351455688477,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 1.3328933715820312,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.0141181945800781,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 8.903217315673828,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.967996597290039,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 3.8352699279785156,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.5080013275146484,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 1.4210338592529297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.1133499145507812,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 1.519033432006836,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.0520362854003906,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 2.8097915649414062,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.8994598388671875,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 0.6422805786132812,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.8919086456298828,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 1.6304092407226562,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.5364551544189453,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   }
+  ],
+  "mem_canaries@2000": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 26.418842315673828,
+     "rank": 652,
+     "exposure": 0.6184981046049156,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.660133361816406,
+     "rank": 428,
+     "exposure": 1.2257592724348463,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 22.33818817138672,
+     "rank": 174,
+     "exposure": 2.524282762987265,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 32.2130012512207,
+     "rank": 775,
+     "exposure": 0.3691737586743926,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 35.422569274902344,
+     "rank": 794,
+     "exposure": 0.3342310616930355,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 31.476272583007812,
+     "rank": 748,
+     "exposure": 0.4203317989483555,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 30.31952667236328,
+     "rank": 873,
+     "exposure": 0.19738841520655193,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 32.59892272949219,
+     "rank": 680,
+     "exposure": 0.5578353226982902,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 15.31137466430664,
+     "rank": 8,
+     "exposure": 6.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 14.64139175415039,
+     "rank": 3,
+     "exposure": 8.382263758114837,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 12.329086303710938,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.71615982055664,
+     "rank": 15,
+     "exposure": 6.060335663227474,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 18.35211181640625,
+     "rank": 153,
+     "exposure": 2.7098384161433406,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 26.49247169494629,
+     "rank": 343,
+     "exposure": 1.5451614926631798,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 3.844371795654297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.077547073364258,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 3.8446388244628906,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.689792633056641,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 9.858747482299805,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.933507919311523,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 6.226253509521484,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.766477584838867,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 3.676593780517578,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.349456787109375,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 6.082609176635742,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 7.914863586425781,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 5.171102523803711,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.038906097412109,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 11.479259490966797,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.7410125732421875,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 11.040836334228516,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.125127792358398,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 5.1381988525390625,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.78424072265625,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 3.0875205993652344,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.738779067993164,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 0.6260356903076172,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.424203872680664,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 4.084255218505859,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.993125915527344,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 1.2266216278076172,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.0065498352050781,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 1.2113170623779297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.1936225891113281,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 1.0481700897216797,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 2.912057876586914,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 1.2698783874511719,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.237710952758789,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   }
+  ],
+  "mem_canaries@2500": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 22.886844635009766,
+     "rank": 287,
+     "exposure": 1.8023193321603053,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 24.276981353759766,
+     "rank": 203,
+     "exposure": 2.3018903416508163,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 15.48048210144043,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 20.176408767700195,
+     "rank": 40,
+     "exposure": 4.64529816394863,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 11.45277214050293,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 20.39302635192871,
+     "rank": 87,
+     "exposure": 3.524282762987265,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 19.01706314086914,
+     "rank": 90,
+     "exposure": 3.475373162506318,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 22.031265258789062,
+     "rank": 152,
+     "exposure": 2.7192987453924076,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 11.577692031860352,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.474929809570312,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 14.715902328491211,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.22344970703125,
+     "rank": 7,
+     "exposure": 7.159871336778389,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 18.5848388671875,
+     "rank": 182,
+     "exposure": 2.4594316186372964,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 23.89794158935547,
+     "rank": 201,
+     "exposure": 2.3161745676570638,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 8.82142448425293,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 10.47780990600586,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 6.262018203735352,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.336711883544922,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 5.400474548339844,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.117256164550781,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 2.2707252502441406,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.7729740142822266,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 5.6903533935546875,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.618547439575195,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 4.038906097412109,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.510072708129883,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 3.4494380950927734,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.656183242797852,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 2.494203567504883,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.5105209350585938,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 7.731679916381836,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.893077850341797,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 2.177623748779297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.8459129333496094,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 2.911092758178711,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.029455184936523,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 1.787893295288086,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.1644363403320312,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 1.7462272644042969,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.4750957489013672,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 0.9384384155273438,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.0353851318359375,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 1.6467914581298828,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 0.44945716857910156,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 0.7776050567626953,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.8434505462646484,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 0.8286952972412109,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.1964607238769531,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   }
+  ],
+  "mem_canaries@3000": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 27.09449577331543,
+     "rank": 460,
+     "exposure": 1.121736207891617,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 27.50981903076172,
+     "rank": 268,
+     "exposure": 1.9011370683782207,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 16.942045211791992,
+     "rank": 10,
+     "exposure": 6.645298163948631,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 24.636598587036133,
+     "rank": 109,
+     "exposure": 3.199041934059067,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 13.473833084106445,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 27.339275360107422,
+     "rank": 231,
+     "exposure": 2.1154772174199357,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 21.402433395385742,
+     "rank": 72,
+     "exposure": 3.7973012573936806,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 25.8480167388916,
+     "rank": 167,
+     "exposure": 2.583521966361941,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 9.0849609375,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 9.157325744628906,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 16.588848114013672,
+     "rank": 4,
+     "exposure": 7.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 19.506052017211914,
+     "rank": 19,
+     "exposure": 5.719298745392408,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 15.029747009277344,
+     "rank": 14,
+     "exposure": 6.159871336778389,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.498981475830078,
+     "rank": 315,
+     "exposure": 1.6680182404487134,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 10.779508590698242,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 13.009038925170898,
+     "rank": 3,
+     "exposure": 8.382263758114837,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 3.4458656311035156,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.650562286376953,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 3.6778793334960938,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.450262069702148,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 1.6892032623291016,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.3300113677978516,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 5.088903427124023,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.0015869140625,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 4.154996871948242,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.808448791503906,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 3.8186569213867188,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.549190521240234,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 3.2170791625976562,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.049488067626953,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 3.5945053100585938,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.057506561279297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 1.2443180084228516,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.6708660125732422,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 3.0604076385498047,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.2639026641845703,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 1.111612319946289,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.5218067169189453,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 1.087759017944336,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 0.766021728515625,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 1.0443763732910156,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.6166133880615234,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 0.8198184967041016,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.34862327575683594,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 1.2248573303222656,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.9587383270263672,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 0.8734493255615234,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.3799419403076172,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   }
+  ],
+  "mem_canaries@3500": [
+   {
+    "id": 0,
+    "reps": 1,
+    "context": {
+     "nll": 27.05502700805664,
+     "rank": 368,
+     "exposure": 1.4436643027789806,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 29.490440368652344,
+     "rank": 292,
+     "exposure": 1.7774016999559752,
+     "extracted": false
+    }
+   },
+   {
+    "id": 1,
+    "reps": 1,
+    "context": {
+     "nll": 12.588703155517578,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 23.570175170898438,
+     "rank": 59,
+     "exposure": 4.084583209474151,
+     "extracted": false
+    }
+   },
+   {
+    "id": 2,
+    "reps": 1,
+    "context": {
+     "nll": 15.867828369140625,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 24.057601928710938,
+     "rank": 74,
+     "exposure": 3.7577728932070427,
+     "extracted": false
+    }
+   },
+   {
+    "id": 3,
+    "reps": 1,
+    "context": {
+     "nll": 14.145378112792969,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 24.4676513671875,
+     "rank": 112,
+     "exposure": 3.159871336778389,
+     "extracted": false
+    }
+   },
+   {
+    "id": 4,
+    "reps": 2,
+    "context": {
+     "nll": 5.858512878417969,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.351335525512695,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 5,
+    "reps": 2,
+    "context": {
+     "nll": 14.043764114379883,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 16.289901733398438,
+     "rank": 2,
+     "exposure": 8.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 6,
+    "reps": 2,
+    "context": {
+     "nll": 16.818544387817383,
+     "rank": 40,
+     "exposure": 4.64529816394863,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 30.122406005859375,
+     "rank": 256,
+     "exposure": 1.9672262588359928,
+     "extracted": false
+    }
+   },
+   {
+    "id": 7,
+    "reps": 2,
+    "context": {
+     "nll": 3.7701187133789062,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.177335739135742,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 8,
+    "reps": 4,
+    "context": {
+     "nll": 3.8760986328125,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.156835556030273,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 9,
+    "reps": 4,
+    "context": {
+     "nll": 3.4734668731689453,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.609664916992188,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 10,
+    "reps": 4,
+    "context": {
+     "nll": 1.9597835540771484,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 5.438236236572266,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 11,
+    "reps": 4,
+    "context": {
+     "nll": 3.6766014099121094,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 3.6979026794433594,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 12,
+    "reps": 8,
+    "context": {
+     "nll": 3.6842479705810547,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 6.178495407104492,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 13,
+    "reps": 8,
+    "context": {
+     "nll": 2.8388843536376953,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.120046615600586,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 14,
+    "reps": 8,
+    "context": {
+     "nll": 2.245199203491211,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.4280223846435547,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 15,
+    "reps": 8,
+    "context": {
+     "nll": 2.868976593017578,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 4.146142959594727,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 16,
+    "reps": 16,
+    "context": {
+     "nll": 2.1023693084716797,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 2.545886993408203,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 17,
+    "reps": 16,
+    "context": {
+     "nll": 3.5002708435058594,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 8.989385604858398,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 18,
+    "reps": 16,
+    "context": {
+     "nll": 0.26521873474121094,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.8483142852783203,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 19,
+    "reps": 16,
+    "context": {
+     "nll": 1.7447261810302734,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    },
+    "bare": {
+     "nll": 1.3987236022949219,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 20,
+    "reps": 32,
+    "context": {
+     "nll": 0.31939697265625,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.3568248748779297,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 21,
+    "reps": 32,
+    "context": {
+     "nll": 0.5418586730957031,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.20734596252441406,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   },
+   {
+    "id": 22,
+    "reps": 32,
+    "context": {
+     "nll": 0.3996143341064453,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 1.7527179718017578,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": false
+    }
+   },
+   {
+    "id": 23,
+    "reps": 32,
+    "context": {
+     "nll": 0.5902690887451172,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    },
+    "bare": {
+     "nll": 0.8775253295898438,
+     "rank": 1,
+     "exposure": 9.967226258835993,
+     "extracted": true
+    }
+   }
+  ]
+ }
+}

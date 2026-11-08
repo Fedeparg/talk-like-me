@@ -1,0 +1,38 @@
+# Private data: WhatsApp chats and everything derived from them never enter git.
+data/
+adapters/
+models/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.jsonl
+*.txt
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Training logs
+*.log
+
+# One-command runs (scripts/run.py): data, adapters and results of each run
+runs/
+
+# Local backups of notebooks and scripts
+.backups_*/
+experiments/nb_queue.status
+# nasrun: results pulled back from the NAS
+outputs/
+.nasrun/
+experiments/.nas_queue.sh
+experiments/.mac_train_seeds.sh
+experiments/mac_train_seeds.log
+experiments/.seeds_to_nas.sh
+experiments/seeds_to_nas.log

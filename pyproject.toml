@@ -1,0 +1,23 @@
+[project]
+name = "talk-like-me"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.1.0",
+    "emoji>=2.16.0",
+    "matplotlib>=3.11.2",
+    "mlx-lm>=0.32.0",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "torch>=2.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "pipeline"]

@@ -1,0 +1,6 @@
+# nasrun: not uploaded to the NAS
+adapters/
+models/
+runs/
+*.log
+data/raw/
